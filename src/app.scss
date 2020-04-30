@@ -15,6 +15,7 @@
 }
 /* variables*/
 $marroncino: #58402c;
+$rosino: #ffe7d2;
 
 body{
   font-family: "HarmoniaSansProCyr";
@@ -34,7 +35,7 @@ h1{
   font-weight: bold;
 }
 h2{
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
 }
 h3{
@@ -55,4 +56,4 @@ h5{
 
 
 
-@import 'css/header';
+@import 'css/header', 'css/main'

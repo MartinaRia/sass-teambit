@@ -17,8 +17,8 @@ let mix = require('laravel-mix');
    .copy('src/index.html', 'dist/')
    .options({
      processCssUrls: true,
-   })
-   .copyDirectory('src/fonts', 'dist/');
+   });
+   // .copyDirectory('src/fonts', 'dist/');
 
 // Full API
 // mix.js(src, output);

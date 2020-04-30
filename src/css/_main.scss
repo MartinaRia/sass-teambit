@@ -1,0 +1,42 @@
+.pink{
+  width: 100%;
+  background: $rosino;
+  text-align: center;
+
+  .container{
+    margin: 0 auto;
+    padding: 100px;
+    border-bottom: 0.5px solid $marroncino;
+
+    h2{
+      max-width: 628px;
+      margin: 0 auto;
+    }
+
+    p{
+      font-size: 18px;
+    }
+  } // /container
+
+  .row{
+    max-width: 860px;
+    align-items: baseline;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    .col{
+      width: calc(100% / 3.5);
+      padding: 10px;
+      margin-bottom: 70px;
+
+      img{
+        max-width: 140px;
+        margin: 20px auto;
+      }
+    }// /col
+  }// /row
+
+  img{
+    max-width: 280px;
+  }
+}// /pink

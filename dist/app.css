@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -144,5 +144,48 @@ header {
 
 .right-img img {
   width: 100%;
+}
+
+.pink {
+  width: 100%;
+  background: #ffe7d2;
+  text-align: center;
+}
+
+.pink .container {
+  margin: 0 auto;
+  padding: 100px;
+  border-bottom: 0.5px solid #58402c;
+}
+
+.pink .container h2 {
+  max-width: 628px;
+  margin: 0 auto;
+}
+
+.pink .container p {
+  font-size: 18px;
+}
+
+.pink .row {
+  max-width: 860px;
+  align-items: baseline;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.pink .row .col {
+  width: calc(100% / 3.5);
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.pink .row .col img {
+  max-width: 140px;
+  margin: 20px auto;
+}
+
+.pink img {
+  max-width: 280px;
 }
 
