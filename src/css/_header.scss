@@ -1,0 +1,79 @@
+header{
+  width: 100%;
+}
+
+// nav{}
+
+/* ===== JUMBOTRON ===== */
+.jumbotron{
+  width: 100%;
+
+  .container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+  /* --- left-title --- */
+.left-title{
+  flex-basis: 518px;
+
+   & > *{  //solo i figli diretti
+    margin: 25px 0px;
+  }
+}
+
+@mixin bottoni-jumbotron{
+  height: 35px;
+  padding: 0 20px;
+  border-radius: 7px;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  color: white;
+  background: #30488f;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.bottoni{
+  align-items: center;
+
+  .google{
+    @include bottoni-jumbotron;
+    &:hover{
+      background: #233569;
+    }
+  }
+
+  .slack{
+    @include bottoni-jumbotron;
+    &:hover{
+      background: #233569;
+    }
+  }
+
+  img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+
+  .lmt{
+    margin: 0px 15px;
+    opacity: 0.7;
+  }
+}
+
+ /* --- right-img --- */
+.right-img{
+  flex-basis: 570px;
+
+  img{
+    width: 100%;
+  }
+}

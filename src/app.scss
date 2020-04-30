@@ -1,4 +1,58 @@
-body{
-  background: black;
-  color: white;
+@mixin font-declaration{
+  font-family: 'HarmoniaSansProCyr';
+  font-style: normal;
 }
+
+@font-face {
+    @include font-declaration;
+    src: url('fonts/HarmoniaSansProCyr-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    @include font-declaration;
+    src: url('fonts/HarmoniaSansProCyr-SemiBd.ttf');
+    font-weight: bold;
+}
+/* variables*/
+$marroncino: #58402c;
+
+body{
+  font-family: "HarmoniaSansProCyr";
+  font-weight: normal;
+  color: $marroncino;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+h2{
+  font-size: 22px;
+  font-weight: bold;
+}
+h3{
+  font-size: 22px;
+  font-weight: normal;
+}
+h5{
+  font-size: 40px;
+  font-weight:bold;
+}
+.flex-container{
+  display: flex;
+}
+.container{
+  max-width: 1150px;
+  margin: 100px;
+}
+
+
+
+@import 'css/header';
