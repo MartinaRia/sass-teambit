@@ -37,6 +37,11 @@ h2 {
 }
 
 h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h4 {
   font-size: 22px;
   font-weight: normal;
 }
@@ -166,6 +171,29 @@ header {
   font-size: 18px;
 }
 
+.pink .container .row {
+  max-width: 860px;
+  align-items: baseline;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.pink .container .row .col {
+  width: calc(100% / 3.5);
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.pink .container .row .col img {
+  max-width: 140px;
+  max-height: 105px;
+  margin: 20px auto;
+}
+
+.pink .container img {
+  max-width: 280px;
+}
+
 .pink hr {
   max-width: 1150px;
   height: 0px;
@@ -174,30 +202,50 @@ header {
   border-top: 1px solid #bdb5af;
 }
 
-.pink .row {
-  max-width: 860px;
-  align-items: baseline;
-  margin: 0 auto;
-  justify-content: space-around;
-}
-
-.pink .row .col {
-  width: calc(100% / 3.5);
-  padding: 10px;
-  margin-bottom: 70px;
-}
-
-.pink .row .col img {
-  max-width: 140px;
-  max-height: 105px;
-  margin: 20px auto;
-}
-
-.pink img {
-  max-width: 280px;
-}
-
 .pink h2 {
   padding: 50px 0;
+}
+
+.white {
+  width: 100%;
+}
+
+.white .container-fullwidth {
+  margin: 70px 0;
+}
+
+.white .container-fullwidth .right {
+  flex-direction: row-reverse;
+}
+
+.white .container-fullwidth .row {
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0;
+}
+
+.white .container-fullwidth .row img {
+  max-width: 768px;
+}
+
+.white .container-fullwidth .row .col-txt {
+  width: 420px;
+}
+
+.white .container-fullwidth .row .col-txt > * {
+  margin: 30px 0;
+}
+
+.white .container-fullwidth .row .col-txt .learn-more {
+  color: #30488F;
+}
+
+.white .container-fullwidth .row .col-txt .img-foca-e-png {
+  width: 100%;
+  justify-content: center;
+}
+
+.white .container-fullwidth .row .col-txt .img-foca-e-png img {
+  max-width: 270px;
 }
 

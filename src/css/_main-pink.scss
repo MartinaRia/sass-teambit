@@ -3,7 +3,6 @@
   background: $rosino;
   text-align: center;
 
-
   .container{
     margin: 0 auto;
     padding: 100px;
@@ -16,6 +15,30 @@
     p{
       font-size: 18px;
     }
+
+    .row{
+      max-width: 860px;
+      align-items: baseline;
+      margin: 0 auto;
+      justify-content: space-around;
+
+      .col{
+        width: calc(100% / 3.5);
+        padding: 10px;
+        margin-bottom: 70px;
+
+        img{
+          max-width: 140px;
+          max-height: 105px;
+          margin: 20px auto;
+        }
+      }// /col
+    }// /row
+
+    img{
+      max-width: 280px;
+    }
+
   } // /container
 
   hr{
@@ -24,29 +47,6 @@
     margin: 0 auto;
     border-width: 0;
     border-top: 1px solid #bdb5af;
-  }
-
-  .row{
-    max-width: 860px;
-    align-items: baseline;
-    margin: 0 auto;
-    justify-content: space-around;
-
-    .col{
-      width: calc(100% / 3.5);
-      padding: 10px;
-      margin-bottom: 70px;
-
-      img{
-        max-width: 140px;
-        max-height: 105px;
-        margin: 20px auto;
-      }
-    }// /col
-  }// /row
-
-  img{
-    max-width: 280px;
   }
 
   h2{

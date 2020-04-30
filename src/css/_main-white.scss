@@ -1,0 +1,43 @@
+.white{
+  width: 100%;
+
+  .container-fullwidth{
+    margin: 70px 0;
+
+    .right{
+      flex-direction: row-reverse;
+    }
+
+    .row{
+      align-items: center;
+      justify-content: flex-start;
+      margin: 30px 0;
+
+      img{
+        max-width: 768px;
+      }
+
+      .col-txt{
+        width: 420px;
+
+        & > *{
+          margin: 30px 0;
+        }
+
+        .learn-more{
+          color: #30488F;
+        }
+
+        .img-foca-e-png{
+          width: 100%;
+          justify-content: center;
+
+          img{
+            max-width: 270px;
+          }
+        } //div img foca
+
+      } // col-text
+    } // row
+  } // container full-witch
+} //white
