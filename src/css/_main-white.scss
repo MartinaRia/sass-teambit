@@ -2,7 +2,7 @@
   width: 100%;
 
   .container-fullwidth{
-    margin: 70px 0;
+    margin: 50px 0;
 
     .right{
       flex-direction: row-reverse;
@@ -11,7 +11,7 @@
     .row{
       align-items: center;
       justify-content: flex-start;
-      margin: 30px 0;
+      margin: 50px 0;
 
       img{
         max-width: 768px;
@@ -34,6 +34,7 @@
 
           img{
             max-width: 270px;
+            max-height: 270px;
           }
         } //div img foca
 

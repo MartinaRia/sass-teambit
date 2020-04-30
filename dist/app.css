@@ -211,7 +211,7 @@ header {
 }
 
 .white .container-fullwidth {
-  margin: 70px 0;
+  margin: 50px 0;
 }
 
 .white .container-fullwidth .right {
@@ -221,7 +221,7 @@ header {
 .white .container-fullwidth .row {
   align-items: center;
   justify-content: flex-start;
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .white .container-fullwidth .row img {
@@ -247,5 +247,6 @@ header {
 
 .white .container-fullwidth .row .col-txt .img-foca-e-png img {
   max-width: 270px;
+  max-height: 270px;
 }
 
