@@ -366,7 +366,7 @@ footer .container ul li:hover {
   color: blue;
 }
 
-.container {
+nav .container {
   margin-top: 0;
   margin-bottom: 40px;
   padding: 20px 0;
@@ -375,12 +375,12 @@ footer .container ul li:hover {
   border-bottom: 1px solid #58402c;
 }
 
-.container ul {
+nav .container ul {
   list-style-type: none;
   align-items: center;
 }
 
-.container ul li {
+nav .container ul li {
   margin-left: 20px;
   padding: 0 10px;
   font-size: 14px;
@@ -388,11 +388,11 @@ footer .container ul li:hover {
   cursor: pointer;
 }
 
-.container ul li:hover {
+nav .container ul li:hover {
   color: #30488f;
 }
 
-.container ul li:last-child {
+nav .container ul li:last-child {
   border: 1px solid #30488f;
   line-height: 33px;
   background: #fff;
@@ -402,12 +402,12 @@ footer .container ul li:hover {
   transition: all 0.3s;
 }
 
-.container ul li:last-child img {
+nav .container ul li:last-child img {
   width: 16px;
   margin-right: 10px;
 }
 
-.container ul li:last-child:hover {
+nav .container ul li:last-child:hover {
   color: white;
   background: #30488f;
 }
