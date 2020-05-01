@@ -366,3 +366,49 @@ footer .container ul li:hover {
   color: blue;
 }
 
+.container {
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #58402c;
+}
+
+.container ul {
+  list-style-type: none;
+  align-items: center;
+}
+
+.container ul li {
+  margin-left: 20px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container ul li:hover {
+  color: #30488f;
+}
+
+.container ul li:last-child {
+  border: 1px solid #30488f;
+  line-height: 33px;
+  background: #fff;
+  color: #30488f;
+  border-radius: 7px;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.container ul li:last-child img {
+  width: 16px;
+  margin-right: 10px;
+}
+
+.container ul li:last-child:hover {
+  color: white;
+  background: #30488f;
+}
+
